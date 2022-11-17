@@ -1,0 +1,152 @@
+<html>
+  <head>
+    <title> Movie Atlas AT - Home</title>
+    <link href="/public/carousel-caption.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/public/style.css" />
+    <link href="/public/bootstrap.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/public/icon.png" sizes="32x32">
+  </head>
+  <body>
+      <table width='100%' border='0' cellpadding="5px">
+      <tr> 
+      <td align='left' width='20%'> &nbsp;&nbsp; <a style="text-decoration: none;" href="/"><img width="24px" height="23px" src="/public/icon.png" alt="Logo"> &nbsp; <font style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;" size="5" color='#a24028'><strong> Movie Atlas AT </strong></font> </a></td>    
+      <td border="1px" bordercolor="#bcbcbc" align='center' width='60%'> 
+        <form action="/search" method="GET">
+          <table border="0"><tr><td align='center'><input type="text" style="height: 40px; width:450px; background-color:rgb(237, 233, 233);" name="search" id="search" placeholder="Search & visit filming locations of your favorite movie ...." class="form-control input-m" /> </td><td> &nbsp;&nbsp; <button type="submit"> SEARCH </button> </td></tr></table>
+        </form>
+      </td>
+      <td align='right' valign="center" width='20%'> <a href="/about" id="about" style="text-decoration: none;"> <img width="24px" height="23px" src="/public/about.png" alt="Logo"> </a> &nbsp;&nbsp;&nbsp;</td>
+      </tr>
+      </table>
+      <hr>
+      <table width='100%' height='100%' border='0' cellpadding="5px">
+      <tr> 
+      <td width='20%'> </td>    
+      <td border="1px" bordercolor="#bcbcbc" align='center' valign="top" width='60%' height='100%'>
+
+        <font size="4" color="#817e7e"><strong>Popular Filming Locations in Africa</strong></font></br>
+
+        <div id="mySlideshow" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#mySlideshow" data-slide-to="0" class="active"></li>
+              <li data-target="#mySlideshow" data-slide-to="1"></li>
+              <li data-target="#mySlideshow" data-slide-to="2"></li>
+              <li data-target="#mySlideshow" data-slide-to="3"></li>
+              <li data-target="#mySlideshow" data-slide-to="4"></li>
+              <li data-target="#mySlideshow" data-slide-to="5"></li>
+              <li data-target="#mySlideshow" data-slide-to="6"></li>
+            </ul>
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/public/images/screenshot-6.png" alt="Queen of Katwe, Filmed in Uganda" style="width:648px;height:451px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <font size="3" color="black"><strong>Queen of Katwe, Filmed in Uganda</strong></font></br>
+                    <a class="btn-solid-reg" href="/search?search=queen+of+katwe">VISIT LOCATION</a>
+                </div>
+              </div>
+          
+              <div class="carousel-item">
+                <img src="/public/images/screenshot-7.png" alt="The White Maasai, Filmed in Kenya" style="width:648px;height:451px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <font size="3" color="black"><strong>The White Maasai, Filmed in Kenya</strong></font></br>
+                    <a class="btn-solid-reg" href="/search?search=the+white+maasai">VISIT LOCATION</a>
+                </div>
+              </div>
+          
+              <div class="carousel-item">
+                <img src="/public/images/screenshot-3.png" alt="District 9, Filmed in South Africa" style="width:648px;height:451px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <font size="3" color="black"><strong>District 9, Filmed in South Africa</strong></font></br>
+                    <a class="btn-solid-reg" href="/search?search=district+9">VISIT LOCATION</a>
+                </div>
+              </div>
+  
+              <div class="carousel-item">
+                <img src="/public/images/screenshot-4.png" alt="Blood Diamond, Filmed in South Africa" style="width:648px;height:451px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <font size="3" color="black"><strong>Blood Diamond, Filmed in South Africa</strong></font></br>
+                    <a class="btn-solid-reg" href="/search?search=blood+diamond">VISIT LOCATION</a>
+                </div>
+              </div>
+  
+              <div class="carousel-item">
+                <img src="/public/images/screenshot-5.png" alt="Hotel Rwanda, Filmed in South Africa" style="width:648px;height:451px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <font size="3" color="black"><strong>Hotel Rwanda, Filmed in South Africa</strong></font></br>
+                    <a class="btn-solid-reg" href="/search?search=hotel+rwanda">VISIT LOCATION</a>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="/public/images/screenshot-1.png" alt="The Last King of Scotland, Filmed in Uganda" style="width:648px;height:451px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <font size="3" color="black"><strong>The Last King of Scotland, Filmed in Uganda</strong></font></br>
+                    <a class="btn-solid-reg" href="/search?search=king+of+scotland">VISIT LOCATION</a>
+                </div>
+              </div>
+          
+              <div class="carousel-item">
+                <img src="/public/images/screenshot-2.png" alt="Mighty Joe Young, Namibia" style="width:648px;height:451px;">
+                <div class="carousel-caption d-none d-md-block">
+                    <font size="3" color="black"><strong>Mighty Joe Young, Namibia</strong></font></br>
+                    <a class="btn-solid-reg" href="/search?search=mighty+joe+young">VISIT LOCATION</a>
+                </div>
+              </div>
+  
+            </div>
+          
+            <!-- Left and right controls -->
+            <a style="text-decoration: none;" class="carousel-control-prev" href="#mySlideshow" data-slide="prev">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#mySlideshow" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+
+        </br></br>
+        <% if (movies.length > 0) {%>
+
+        <table class="table table-hovered">
+            <tbody>
+                <% movies.forEach((movie, index) => { %>
+                    <tr>
+                      <td>
+
+                      <table width='100%' border='0' cellpadding="5px">
+                        <tr> 
+                          <td align='left' valign="top" width='30%'>  
+                            <img width="250px" height="370px" src="<%= movie.node.entity.primaryImage.url %>" alt="<%= movie.node.entity.titleText.text %>">
+                          </td> 
+                          <td align='left' valign="top" width='70%'>  
+                            <font size="4" color="#616161"><strong><%= movie.node.entity.titleText.text %></strong></font>
+                            </br></br>
+                            <font size="4" color="#aa5e44"><strong> Filming Locations:  </strong></font></br></br>
+                            <font size="4" color="#89523f"><strong><i><% movie.node.entity.filmingLocations.edges.forEach((location, i)=>{ %><%= location.node.text %><% }) %></i></strong></font> 
+                          </br></br>
+                            <a class="btn-solid-reg" href="">VISIT LOCATION</a>
+                          </td> 
+                        </tr>
+                      </table>
+
+                    </td>
+                    </tr>
+                <% }) %>
+            </tbody>
+        </table>
+        
+        <% } %>
+
+      </td>
+      <td width='20%'> </td>
+      </tr>
+      </table>
+    </br>
+    <script src="/public/jquery.js"></script>
+    <script src="/public/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+  </body>
+</html>
+

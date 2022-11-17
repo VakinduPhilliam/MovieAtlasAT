@@ -1,0 +1,37 @@
+query getByCountry($search: String!)
+{
+  # Get the top 10 name recommendations that match the search term.
+  mainSearch(
+    first: 10
+    options: {
+      searchTerm: $search   
+      isExactMatch: false   
+      type: TITLE      
+      includeAdult:false,
+    }
+  ) {
+    edges {
+      node {
+        entity {
+          # For returned Names, get me the id, name text, image, year, country
+          ... on Title {
+            id
+            titleText {
+              text
+            }
+            primaryImage {
+              url
+              }
+            filmingLocations(first:1) {
+              edges{
+                node{
+                  text
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
