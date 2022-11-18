@@ -61,4 +61,4 @@ You should see a message like, "Server running on port: 6300" in your command te
 
 Open your browser and visit, http://localhost:5900/ to view the app.
 (You must be online for the app to fetch the API from AWS DataExchange.)
-
+(Also make sure to replace the 'access key' and 'secret key' in the .env file with your own IAM key. Make sure it has AWS dataexchange permissions.)
